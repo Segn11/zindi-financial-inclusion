@@ -1,0 +1,71 @@
+Africa Bank Account Prediction
+
+Predicting financial inclusion in Africa using machine learning. This project aims to identify individuals most likely to have a bank account across Kenya, Rwanda, Tanzania, and Uganda.
+
+🚀 Project Overview
+
+Financial inclusion remains a key challenge in Africa. Despite the growth of mobile money and fintech solutions, access to traditional bank accounts is still a critical factor for economic development.
+
+This project builds a machine learning model to predict which individuals are most likely to have or use a bank account, helping inform strategies for improving financial access.
+
+📊 Dataset
+
+Source: Zindi Competition – Financial Inclusion in Africa
+
+Features: Demographic, socioeconomic, and geographic attributes of individuals.
+
+Target: bank_account (1 if the individual has a bank account, 0 otherwise)
+
+Submission format:
+
+unique_id	bank_account
+uniqueid_1 x Kenya	1
+uniqueid_2 x Kenya	0
+uniqueid_3 x Kenya	1
+🛠️ Technologies Used
+
+Python
+
+Pandas & NumPy (data processing)
+
+Scikit-learn (modeling)
+
+LightGBM / XGBoost (machine learning models)
+
+Matplotlib & Seaborn (visualizations)
+
+🔍 Methodology
+
+Data Cleaning & Preprocessing
+
+Handle missing values
+
+Encode categorical variables
+
+Feature engineering
+
+Modeling
+
+Train-test split
+
+Try multiple models: LightGBM, XGBoost
+
+Hyperparameter tuning
+
+Evaluation
+
+Metric: Mean Absolute Error (MAE)
+
+Cross-validation to ensure robust performance
+
+Submission
+
+Generate predictions on the test set
+
+Export results in the required CSV format
+
+📈 Results
+
+The model achieved an MAE of X.XX on the validation set.
+
+Key features contributing to prediction: [list a few important features]
